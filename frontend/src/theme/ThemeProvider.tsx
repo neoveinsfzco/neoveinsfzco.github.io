@@ -1,7 +1,8 @@
 // src/theme/ThemeProvider.tsx
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import type { PaletteMode } from '@mui/material';
-import { ReactNode, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
+import type { ReactNode } from 'react';
 import { ColorModeContext, getTheme } from './theme';
 
 export default function AppThemeProvider({ children }: { children: ReactNode }) {

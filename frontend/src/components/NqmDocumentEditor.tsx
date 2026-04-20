@@ -12,6 +12,7 @@ import {
 
 import { useEditor, EditorContent } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
+import type { Level } from '@tiptap/extension-heading';
 import Underline from '@tiptap/extension-underline';
 import TextAlign from '@tiptap/extension-text-align';
 import { TextStyle } from '@tiptap/extension-text-style';
@@ -192,27 +193,27 @@ export const NqmDocumentEditor: React.FC<NqmDocumentEditorProps> = ({
   // Keep editor in sync with external value (e.g., when loading existing version)
   useEffect(() => {
     if (editor && value !== editor.getHTML()) {
-      editor.commands.setContent(value || '<p></p>', false);
+      editor.commands.setContent(value || '<p></p>', { emitUpdate: false });
     }
   }, [editor, value]);
 
   if (!editor) return null;
 
   const handleHeadingChange = (
-    event: React.MouseEvent<HTMLElement>,
+    _event: React.MouseEvent<HTMLElement>,
     newValue: string | null,
   ) => {
     if (!newValue) return;
     if (newValue === 'paragraph') {
       editor.chain().focus().setParagraph().run();
     } else {
-      const level = Number(newValue.replace('h', ''));
+      const level = Number(newValue.replace('h', '')) as Level;
       editor.chain().focus().toggleHeading({ level }).run();
     }
   };
 
   const handleAlignChange = (
-    event: React.MouseEvent<HTMLElement>,
+    _event: React.MouseEvent<HTMLElement>,
     newValue: string | null,
   ) => {
     if (!newValue) return;
@@ -313,7 +314,7 @@ export const NqmDocumentEditor: React.FC<NqmDocumentEditorProps> = ({
             src: result,
             alt: file.name,
             width: width || undefined,
-          })
+          } as any)
           .run();
       }
     };

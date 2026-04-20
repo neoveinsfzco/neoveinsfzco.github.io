@@ -81,6 +81,7 @@ interface IncidentTask {
   status: string;
   assigned_to_ids?: number[];
   response_text?: string;
+  response_data?: Record<string, any>;
 }
 
 interface Investigation {
@@ -331,18 +332,6 @@ export const IncidentWorkflowDrawer: React.FC<IncidentWorkflowDrawerProps> = ({
       setStatus('Assigned');
     } catch (err) {
       console.error('Error assigning task', err);
-    }
-  };
-
-  const handleTaskComplete = async (taskId: number, response: string) => {
-    try {
-      await api.patch(`ir/tasks/${taskId}/`, {
-        status: 'Completed',
-        response_text: response,
-      });
-      await fetchWorkflowMeta();
-    } catch (err) {
-      console.error('Error completing task', err);
     }
   };
 
@@ -651,9 +640,14 @@ export const IncidentWorkflowDrawer: React.FC<IncidentWorkflowDrawerProps> = ({
                 size="small"
                 SelectProps={{ multiple: true }}
                 value={assignToIds}
-                onChange={(e) =>
-                  setAssignToIds((e.target.value as number[]) || [])
-                }
+                onChange={(e) => {
+                  const value = e.target.value as string | number[];
+                  setAssignToIds(
+                    typeof value === 'string'
+                      ? value.split(',').map((item) => Number(item))
+                      : value.map((item) => Number(item)),
+                  );
+                }}
               >
                 {members.map((m) => (
                   <MenuItem key={m.id} value={m.id}>

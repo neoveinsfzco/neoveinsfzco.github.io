@@ -20,18 +20,24 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-change-me')
+# For a demo, it's okay to default to False if the environment variable is missing
+DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-# Default to debug mode for local development so Django serves media files.
-# Production can still override this with DEBUG=False in the environment.
-DEBUG = os.environ.get('DEBUG', 'True') == 'True'
+# If you are deploying to PythonAnywhere, you might need to set this explicitly 
+# if you aren't using a .env file on the server:
+SECRET_KEY = os.environ.get('SECRET_KEY', 'cannh#0bz^^!z4euvjx+4*&4evzg@hd4&^$5-l^kw7ri(#_$ju')
 
-ALLOWED_HOSTS = [h for h in os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',') if h]
+# ALLOWED_HOSTS = [h for h in os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',') if h]
+# You can keep the local ones for development, but add the PA domain
+ALLOWED_HOSTS = [
+    'localhost', 
+    '127.0.0.1', 
+    'amddawg.pythonanywhere.com'
+]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://neoveinsfzco.github.io", # Add your GitHub Pages URL
 ]
 
 

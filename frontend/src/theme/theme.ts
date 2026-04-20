@@ -1,6 +1,7 @@
 // src/theme/theme.ts
 import { createTheme } from '@mui/material/styles';
 import type { ThemeOptions, PaletteMode } from '@mui/material';
+import type {} from '@mui/x-data-grid/themeAugmentation';
 import { createContext } from 'react';
 
 export const ColorModeContext = createContext({

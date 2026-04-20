@@ -7,7 +7,7 @@ export const fetchAssignedTraining = (businessUnitId: number, params: Record<str
   api.get('training/courses/assigned/', { params: { business_unit: businessUnitId, ...params } });
 
 export const fetchTrainingEnrollments = (businessUnitId: number, params: Record<string, any> = {}) =>
-  api.get('training/enrollments/', { params: { ...params } });
+  api.get('training/enrollments/', { params: { business_unit: businessUnitId, ...params } });
 
 export const fetchTrainingCategories = (businessUnitId: number) =>
   api.get('training/categories/', { params: { business_unit: businessUnitId, is_active: true } });
