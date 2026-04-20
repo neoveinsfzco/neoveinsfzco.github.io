@@ -1,0 +1,104 @@
+learning need analysis
+design trainings 
+setup with line managers to choose the trainings needed
+training types:
+PDF, PPt, scroms, videos
+views: catalog + assigned learnings + line manager employee status
+assignment  types: recommended , mandatory, vulantary (self )
+
+components pf learning 
+in sequence:
+
+
+course details:
+title
+description + objectives
+publish start date
+publish end data (optional)
+course number (system generated)
+min expeted effort (by hours)
+max expeted effors (by hours)
+upload course main photo / or video as trailer
+upload supporting docuemnts (referances, evidence of need, cv of speaker, invoice of course) choose to whom it can be viewed
+mandatory to which dept (configurable) ( optional) if yes manadatory (yes/no)
+course validity (expriry years)
+chose inhouse or by vendor
+accreditation (yes/no)
+accredetaion number
+accredtaion body (entity of accreditation)
+choose whom the vendor i purchased the course from
+category of training ( configurable) like quality, general, information system, technical
+
+course modules activities
+
+module
+types: instucture led 
+self paced 
+blended
+
+
+modules details:
+title
+descp
+module number ( system generated)
+publish date
+publish end date
+who coordinate the module
+supporting attachement
+optional - capacity (min + max)
+if more go's to waitlist
+CME/CNE credoit hours
+training category
+validity years
+approval to take this module
+choose if its sequanctial
+
+
+activities details:
+sections:
+reading material
+assessment
+feedback
+recorded session
+
+choose sequance of section
+choose completion if its per section or per sub activities (choose activites)
+
+each section include
+seub activities
+each activity
+title
+descp
+choose from library of contents(type of content: pdf, video,assessment,conver page) or upload new 
+
+for assessment"
+how many attempt
+choose passing score and scorings for each quastions
+average or sum of all assessment
+time limit for assessment
+
+
+feedback is also a questionare
+
+finaly mark this coruse as done
+
+
+
+
+learners
+create assigments
+title
+descp
+assign start date
+choose assigned by which dept
+note to view to learners
+duo date(should send notification, reminders (as per choosen schema configured)
+choose learners ( one by one, by dept, by position)
+choose if to retake or exempted if taken
+
+
+
+optional feature learning path( collection of courses ) can be choosen in he assignment
+
+
+dashbord and reports
