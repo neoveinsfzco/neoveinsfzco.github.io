@@ -79,6 +79,14 @@ export function HomePage({
               >
                 NC
               </Button>
+              <Button
+                component={RouterLink}
+                to="/training"
+                variant="outlined"
+                color="primary"
+              >
+                Training
+              </Button>
             </Stack>
           </Box>
         )}

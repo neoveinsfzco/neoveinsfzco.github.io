@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://YOUR_USERNAME.github.io/NMQ",
+  "homepage": "https://neoveinsfzco.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
