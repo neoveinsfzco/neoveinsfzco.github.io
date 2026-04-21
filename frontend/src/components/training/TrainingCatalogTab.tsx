@@ -3,6 +3,7 @@ import { Box, Button, Chip, Paper } from '@mui/material';
 import { DataGrid } from '@mui/x-data-grid';
 import type { GridColDef } from '@mui/x-data-grid';
 import api from '../../api/client';
+import { createHashRouteUrl } from '../../utils/routes';
 
 interface TrainingCatalogTabProps {
   businessUnitId: number | '';
@@ -47,7 +48,13 @@ export const TrainingCatalogTab: React.FC<TrainingCatalogTabProps> = ({ business
           <Button
             size="small"
             variant="outlined"
-            onClick={() => window.open(`/training/course/${params.row.id}`, '_blank')}
+            onClick={() =>
+              window.open(
+                createHashRouteUrl(`/training/course/${params.row.id}`),
+                '_blank',
+                'noopener,noreferrer',
+              )
+            }
           >
             Open
           </Button>

@@ -4,6 +4,7 @@ import { DataGrid } from '@mui/x-data-grid';
 import type { GridColDef } from '@mui/x-data-grid';
 import api from '../../api/client';
 import { fetchTrainingLearningPathCourses } from '../../api/training';
+import { createHashRouteUrl } from '../../utils/routes';
 
 interface TrainingAssignedTabProps {
   businessUnitId: number | '';
@@ -88,7 +89,11 @@ export const TrainingAssignedTab: React.FC<TrainingAssignedTabProps> = ({ busine
               variant="outlined"
               disabled={!courseId || params.row.is_locked}
               onClick={() =>
-                window.open(`/training/course/${courseId}?enrollment=${enrollmentId}`, '_blank')
+                window.open(
+                  createHashRouteUrl(`/training/course/${courseId}?enrollment=${enrollmentId}`),
+                  '_blank',
+                  'noopener,noreferrer',
+                )
               }
             >
               {params.row.is_locked ? 'Locked' : 'Open'}

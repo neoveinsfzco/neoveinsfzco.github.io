@@ -11,6 +11,7 @@ import {
 import { Document, Page, pdfjs } from 'react-pdf';
 import { useParams, useSearchParams } from 'react-router-dom';
 import api from '../api/client';
+import { resolveBackendFileUrl } from '../api/config';
 import {
   fetchTrainingCourseAttachments,
   fetchTrainingLearningPathCourses,
@@ -28,14 +29,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.mjs',
   import.meta.url,
 ).toString();
-
-const BACKEND_BASE = 'http://127.0.0.1:8000';
-
-const resolveFileUrl = (url?: string) => {
-  if (!url) return '';
-  if (url.startsWith('http')) return url;
-  return `${BACKEND_BASE}${url}`;
-};
 
 const isVideoFile = (url?: string) =>
   !!url && ['.mp4', '.webm', '.ogg'].some((ext) => url.toLowerCase().endsWith(ext));
@@ -218,7 +211,7 @@ export const TrainingCoursePage: React.FC = () => {
     () =>
       attachments.map((att) => ({
         ...att,
-        url: resolveFileUrl(att.file),
+        url: resolveBackendFileUrl(att.file),
       })),
     [attachments],
   );
@@ -301,7 +294,7 @@ export const TrainingCoursePage: React.FC = () => {
     }
   };
 
-  const activityUrl = resolveFileUrl(selectedActivity?.file) || selectedActivity?.external_url || '';
+  const activityUrl = resolveBackendFileUrl(selectedActivity?.file) || selectedActivity?.external_url || '';
   const activityIsVideo =
     selectedActivity?.content_type === 'VIDEO' || isVideoFile(activityUrl);
   const activityIsPdf =
@@ -357,7 +350,7 @@ export const TrainingCoursePage: React.FC = () => {
           {course.cover_image && (
             <Box sx={{ mt: 2 }}>
               <img
-                src={resolveFileUrl(course.cover_image)}
+                src={resolveBackendFileUrl(course.cover_image)}
                 alt="Course cover"
                 style={{ maxWidth: '100%', borderRadius: 12 }}
               />
@@ -365,7 +358,7 @@ export const TrainingCoursePage: React.FC = () => {
           )}
           {course.trailer_video && (
             <Box sx={{ mt: 2 }}>
-              <a href={resolveFileUrl(course.trailer_video)} target="_blank" rel="noreferrer">
+              <a href={resolveBackendFileUrl(course.trailer_video)} target="_blank" rel="noreferrer">
                 View Trailer Video
               </a>
             </Box>
@@ -671,7 +664,7 @@ export const TrainingCoursePage: React.FC = () => {
             >
               <iframe
                 title="activity-content"
-                src={selectedActivity.external_url || resolveFileUrl(selectedActivity.file)}
+                src={selectedActivity.external_url || resolveBackendFileUrl(selectedActivity.file)}
                 style={{ width: '100%', height: '100%', border: 'none' }}
               />
             </Box>

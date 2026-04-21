@@ -7,9 +7,11 @@ import {
   clearTokens,
   type TokenPair,
 } from '../auth/tokenStorage';
+import { createHashRouteUrl } from '../utils/routes';
+import { API_BASE_URL } from './config';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api/',
+  baseURL: API_BASE_URL,
   withCredentials: true, // THIS IS REQUIRED for cookies to be sent
 });
 
@@ -42,8 +44,9 @@ async function refreshAccessToken(): Promise<string | null> {
     refreshPromise = (async () => {
       try {
         const resp = await axios.post<TokenPair>(
-          'http://127.0.0.1:8000/api/auth/token/refresh/',
+          'auth/token/refresh/',
           { refresh: refreshToken },
+          { baseURL: api.defaults.baseURL },
         );
         // save new access + refresh tokens
         saveTokens(resp.data);
@@ -83,8 +86,8 @@ api.interceptors.response.use(
       }
 
       // Refresh failed or no refresh token: redirect to login
-      if (window.location.pathname !== '/login') {
-        window.location.href = '/login';
+      if (window.location.hash !== '#/login') {
+        window.location.assign(createHashRouteUrl('/login'));
       }
     }
 

@@ -15,6 +15,7 @@ import { useTheme } from '@mui/material/styles';
 import { IncidentTable } from '../components/IncidentTable';
 import { IncidentForm } from '../components/IncidentForm';
 import { IncidentWorkflowDrawer } from '../components/IncidentWorkflowDrawer';
+import { createHashRouteUrl } from '../utils/routes';
 
 interface ModulePageProps {
   selectedBuId: number | '';
@@ -69,7 +70,7 @@ export const IrPage: React.FC<ModulePageProps> = ({ selectedBuId }) => {
           setWorkflowOpen(true);
         }}
         onViewReport={(incidentId) => {
-          window.open(`/ir/report/${incidentId}`, '_blank');
+          window.open(createHashRouteUrl(`/ir/report/${incidentId}`), '_blank', 'noopener,noreferrer');
         }}
       />
 
