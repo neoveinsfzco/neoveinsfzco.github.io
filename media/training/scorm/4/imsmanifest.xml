@@ -1,0 +1,125 @@
+<?xml version="1.0" standalone="no" ?>
+		<!-- created with "Manifest Maker for ADL SCORM 1.2 Version 2.0.0" for Dreamweaver,
+ on Mon Nov 21 2016 12:15:58 GMT-0500 (Eastern Standard Time) -->
+
+<manifest 
+identifier="PHRASE-MANIFEST"
+version="1.0"
+xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+					http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+					http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+	<organizations default="PHRASE_default_org">
+		<organization identifier="PHRASE_default_org">
+			<title>Finding and Using Health Statistics</title>
+			<item identifier="PHRASE_ALL" identifierref="ALLRESOURCES">
+				<title>Phrase Searching in PubMed Tutorial</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="ALLRESOURCES" type="webcontent" adlcp:scormtype="sco" href="index_scorm2.html">
+			
+			<file href="index_scorm2.html" />
+			<file href="index.html" />
+			<file href="01-100.html" />
+			<file href="01-200.html" />
+			<file href="01-300.html" />
+			<file href="01-400.html" />
+			<file href="01-500.html" />
+			<file href="02-100.html" />
+			<file href="02-200.html" />
+			<file href="02-300.html" />
+			<file href="02-400.html" />
+			<file href="02-500.html" />
+			<file href="02-600.html" />
+			<file href="02-700.html" />
+			<file href="02-800.html" />
+			<file href="03-100.html" />
+			<file href="03-200.html" />
+			<file href="03-300.html" />
+			<file href="03-400.html" />
+			<file href="03-500.html" />
+			<file href="03-600.html" />
+			<file href="04-000.html" />
+			<file href="05-000.html" />
+			<file href="06-000.html" />
+			<file href="PhraseSearch-PubMedHandout-508.pdf" />
+		
+			<file href="css/nlm_custom_oet.css" />
+			<file href="css/fontawesome.all.css" />
+			<file href="css/normalize.min.css" />
+			<file href="css/tiles.css" />
+			
+			<file href="img/apple_details.png" />
+			<file href="img/apple_not.png" />
+			<file href="img/apple_tiab.png" />
+			<file href="img/brain_advanced.png" />
+			<file href="img/brain_advanced_details.png" />
+			<file href="img/brain_details.png" />
+			<file href="img/brain_phrase.png" />
+			<file href="img/brain_results.png" />
+			<file href="img/brain_search.png" />
+			<file href="img/brain_ti.png" />
+			<file href="img/facebook.svg" />
+			<file href="img/Facebook_W.svg" />
+			<file href="img/failure_details.png" />
+			<file href="img/failure_results.png" />
+			<file href="img/handout.png" />
+			<file href="img/healthcare_prox.png" />
+			<file href="img/linkedin.svg" />
+			<file href="img/mail.svg" />
+			<file href="img/migraine_no.png" />
+			<file href="img/nav1.png" />
+			<file href="img/nav2.png" />
+			<file href="img/NLM_White.png" />
+			<file href="img/nlm-logo.png" />
+			<file href="img/nlm-logo-sm.png" />
+			<file href="img/no_results.png" />
+			<file href="img/phrase.png" />
+			<file href="img/phrase-diagram.png" />
+			<file href="img/prenatal_details.png" />
+			<file href="img/prenatal_results.png" />
+			<file href="img/prox_icon.png" />
+			<file href="img/PubMed-Phrase.png" />
+			<file href="img/recreational.png" />
+			<file href="img/twitter.svg" />
+			<file href="img/Twitter_W.svg" />
+			<file href="img/vaccine_wildcard.png" />
+			<file href="img/wildcard_icon.png" />
+			<file href="img/xstim-no.png" />
+			<file href="img/youtube.svg" />
+			<file href="img/YouTube_W.svg" />
+			
+			<file href="js/bootstrap.bundle.min.js" />
+			<file href="js/bootstrap.bundle.min.js.map" />
+			<file href="js/oet-custom.js" />
+			<file href="js/scormfunctions.js" />
+			
+			<file href="webfonts/_notes/dwsync.xml" />
+			<file href="webfonts/fa-brands-400.eot" />
+			<file href="webfonts/fa-brands-400.svg" />
+			<file href="webfonts/fa-brands-400.ttf" />
+			<file href="webfonts/fa-brands-400.woff" />
+			<file href="webfonts/fa-brands-400.woff2" />
+			<file href="webfonts/fa-regular-400.eot" />
+			<file href="webfonts/fa-regular-400.svg" />
+			<file href="webfonts/fa-regular-400.ttf" />
+			<file href="webfonts/fa-regular-400.woff" />
+			<file href="webfonts/fa-regular-400.w0ff2" />
+			<file href="webfonts/fa-solid-900.eot" />
+			<file href="webfonts/fa-solid-900.svg" />
+			<file href="webfonts/fa-solid-900.ttf" />
+			<file href="webfonts/fa-solid-900.woff" />
+			<file href="webfonts/fa-solid-900.w0ff2" />
+			
+			
+		</resource>
+	</resources>
+</manifest>

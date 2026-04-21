@@ -1,0 +1,398 @@
+#tile {
+width: 210px;
+height: 118px;
+background-color: #3896F6;
+background-image: url('wow.png');
+background-repeat: no-repeat;
+border: 3px solid #008E8E;
+
+transition: background-position 2s;
+-moz-transition: background-position 2s;
+/* Firefox Support */
+-webkit-transition: background-position 2s;
+/* Chrome and Safari Support */
+-o-transition: background-position 2s;
+/* Opera Support */
+}
+
+#tile:hover {
+border-color: #219D9D;
+background-position: bottom;
+}
+
+#tileCaption {
+position: relative;
+top: 95px;
+left: 12px;
+}
+
+.tile-green {
+
+	background-color:	#0c4c1a; /* alt 004b01 */
+}
+
+.tile-orange {
+
+	background-color:#643910;  /* alt ab5601  */
+}
+
+.tile-yellow {
+	background-color:#f6e7c6;	
+}
+
+.tile-blue {
+	
+	background-color:#20558a;
+}
+
+.tile-purple {
+	background-color:#5232a9;
+}
+
+.tile-aqua {
+	background-color:#0b363e;	
+}
+
+.tile-red {
+	background-color:#641810;	
+}
+
+.tile-blue-empty {
+	background-color:#B1B2B4;
+	min-height:40px!important;
+	max-height:40px!important;	
+}
+
+.tile-min80 {
+	min-height:80px!important;	
+}
+
+.tile {
+	/*min-height:200px !important;	*/
+	color:#fff;
+	/*border:solid 3px #fff;*/
+	padding:8px;
+	text-align:center;
+	/*margin-bottom:6px;*/
+	min-height:60px;
+	vertical-align:middle;
+	margin:0;
+	
+}
+
+.dotted-box {
+	border:#641810 2px dotted;
+	padding:6px;	
+}
+
+.margin-right-6 {
+	margin-right:6px;	
+}
+
+.margin-left-6 {
+	margin-left:6px;	
+}
+
+.margin-left-15 {
+	margin-left:15px;
+}
+
+.margin-right-15 {
+	margin-right:15px;
+}
+
+.tile {
+	
+	opacity:1;
+	transition:opacity .25s ease-in-out;
+	-moz-transition:opacity .25s ease-in-out;
+	-webkit-transition:opacity .25s ease-in-out;	
+}
+
+.tile p {
+	padding:0;	
+	margin:0;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+
+.tile:hover {
+	opacity:0.85;	
+}
+
+
+
+.bottom {
+	position:absolute;
+	bottom:0;
+	margin-bottom:7px;	
+	margin-left:-25px;
+	width:100%;
+}
+
+.un_agencies .bottom, .min210 .bottom {
+	bottom:10px;
+}
+
+.margin-bottom-8 {
+	margin-bottom:8px;
+}
+
+.min10 {
+	min-height:10px;	
+}
+
+.min255 {
+	margin-bottom:20px;	
+}
+
+.min100 {
+	min-height:100px;	
+}
+
+.min150 {
+	min-height:150px;	
+}
+
+.min20 {
+	min-height:20px;	
+}
+
+.min30 {
+	min-height:30px;	
+}
+
+.min60 {
+	min-height:60px;	
+}
+
+.min255 div {
+	min-height:255px !important;
+}
+
+.min210 .callout1 {
+	min-height:210px !important;
+}
+
+.min300 {
+	margin-bottom:20px;	
+}
+
+.min300 div {
+	min-height:300px !important;	
+}
+
+.min329 {
+	margin-bottom:20px;	
+}
+
+.min329 div {
+	min-height:329px !important;	
+}
+.min130 .card-content {
+	min-height:130px;
+}
+
+.card .card-image{
+    overflow: hidden;
+    /*-webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;*/
+}
+
+.card .card-image img{
+    /*-webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;*/
+	
+	width:100%;
+}
+
+.card {
+	opacity:1;
+	transition:opacity .25s ease-in-out;
+	-moz-transition:opacity .25s ease-in-out;
+	-webkit-transition:opacity .25s ease-in-out;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-transform: translateZ(0px);	
+}
+
+.card-content {
+	min-height:60px;	
+}
+
+.card .card-image img:hover, .card .card-content:hover{
+    /*-webkit-transform: scale(1.2) rotate(-7deg);
+    -moz-transform: scale(1.2) rotate(-7deg);
+    -ms-transform: scale(1.2) rotate(-7deg);
+    -o-transform: scale(1.2) rotate(-7deg);
+    transform: scale(1.2) rotate(-7deg);
+	opacity:.55;*/
+	
+}
+
+.card:hover {
+	opacity:.55;
+}
+
+.card{
+    /*font-family: 'Roboto', sans-serif; */
+    margin-top: 10px;
+	margin-bottom:20px;
+    position: relative;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card .card-content {
+    padding: 10px;  
+	background-color:#ffffff;  
+}
+
+.card .card-content .card-title, .card-reveal .card-title{
+    font-size: 14px;
+    font-weight: 600;   
+	text-align:center; 
+	margin-bottom:0;
+}
+
+.card .card-action{
+    padding: 20px;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+}
+.card .card-action a{
+    font-size: 15px;
+    color: #ffab40;
+    text-transform:uppercase;
+    margin-right: 20px;    
+    /*-webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    transition: color 0.3s ease;*/
+}
+.card .card-action a:hover{    
+    color:#ffd8a6;
+    text-decoration:none;
+}
+
+.card:hover {
+	cursor:pointer;	
+}
+
+.card-link {
+	display:block;
+	color:#000;
+}
+
+.card-link:hover, .card-link:active, .card-link:focus {
+	text-decoration:none;
+	color:#000;
+}
+
+
+.card .card-reveal{    
+    padding: 20px;
+    position: absolute;
+    background-color: #EDEAE0;
+    width: 100%;
+    overflow-y: auto;
+    /*top: 0;*/
+    left:0;
+    bottom:0;
+    height: 100%;
+    z-index: 1;
+    display: none;    
+}
+
+.card .card-reveal p{
+    color: rgba(0, 0, 0, 0.71);
+    margin:20px ;
+}
+
+@media (max-width:991px) {   /* For smaller widths, reduce the minimum height to have less whitespace */
+	.min255 div {
+		min-height:155px !important;
+		margin-bottom:5px;	
+	}
+	
+	.min300 div {
+		min-height:205px !important;
+		margin-bottom:5px;	
+	}
+	
+	.min329 div {
+		min-height:	160px !important;
+		margin-bottom:5px;
+	}
+	
+	.min255 {
+		margin-bottom:5px;	
+	}
+	
+	.min300 {
+		margin-bottom:5px;	
+	}
+	
+	.min329 {
+		margin-bottom:5px;	
+	}
+	
+	.limitWidth1024 {
+		width:800px;	
+	}
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+	.limitWidth1024 {
+	width:1024px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+	.min300 div {
+		min-height:315px !important;	
+	}
+	
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+	
+}
+
+.col-xs-15 {
+    width: 19%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 19%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 19%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 19%;
+        float: left;
+    }
+}
+
+

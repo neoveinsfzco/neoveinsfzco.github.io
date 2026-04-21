@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="NLM.Contact.Email" content="oetweb@nih.gov">
+    <title>Phrase Searching in PubMed Tutorial</title>
+	<link href="css/nlm_custom_oet.css" rel="stylesheet">
+	<link href="css/fontawesome.all.css" rel="stylesheet">
+	<script src="js/scormfunctions.js" type="text/javascript"></script>
+
+	
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MT6MLL');</script>
+	<!-- End Google Tag Manager -->
+		
+
+	</head>
+	
+	<body>
+				<div class="container-fluid">
+					
+                <!-- NAVBAR -->
+				<div class="row bg-primary">
+				
+				
+                <nav class="navbar navbar-expand-md navbar-light bg-primary p-2">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-9 pb-md-0 pb-2 ms-2">
+                    <a href="https://www.nlm.nih.gov/" target="_blank"><img src="img/NLM_White.png" class="img-fluid" alt="NLM logo"></a>
+					</div>
+				   
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+					
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto d-xs-flex d-sm-flex d-md-none d-lg-none d-xl-none" style="overflow-y: auto; height: calc(100vh - 68px); border-top: 0px solid #dee2e6;">
+                            <li class="nav-item">
+                                <div class="nav-link" href="index.html">Course Home</div>
+                            </li>
+							
+							<li class="nav-item dropdown">
+        						  <a class="nav-link dropdown-toggle"
+									 href="#" role="button" data-bs-toggle="dropdown" id="navbarDropdown-1" aria-haspopup="true" aria-expanded="true">
+                                    1: What happens when I search PubMed with a phrase?
+                                </a>
+                                <ul class="dropdown-menu show" aria-labelledby="navbarDropdown-1">
+                                    <li><div class="dropdown-item active" href="01-100.html">Intro</div></li>
+                                     <li><div class="dropdown-item" href="01-200.html">How PubMed Processes a Phrase</div></li>
+									 <li><div class="dropdown-item" href="01-300.html">Review Individual Terms (If Needed)</div></li>
+									<li><div class="dropdown-item" href="01-400.html">Knowledge Check</div></li>
+									<li><div class="dropdown-item" href="01-500.html">Module Summary</div></li>
+                                </ul>
+                            </li>
+							
+							<li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle"
+									 href="#" role="button" data-bs-toggle="dropdown" id="navbarDropdown-2" aria-haspopup="true" aria-expanded="false">
+                                   2: I get no results or irrelevant results when I search PubMed with a phrase. What should I do next? 
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown-2">
+                                    <li><div class="dropdown-item" href="02-100.html">Intro</div></li>
+                                    <li><div class="dropdown-item" href="02-200.html">Phrase Searching with Double Quotes</div></li>
+									<li><div class="dropdown-item" href="02-300.html">Special Case: Search for a Phrase in a Specific Search Field</div></li>
+									<li><div class="dropdown-item" href="02-400.html">Phrase Searching with a Proximity of Zero</div></li>
+									<li><div class="dropdown-item" href="02-500.html">Special Case: Confirming an Exact Phrase Does Not Appear in PubMed</div></li>
+									<li><div class="dropdown-item" href="02-600.html">Hands-On Exercises</div></li>
+									<li><div class="dropdown-item" href="02-700.html">Knowledge Check</div></li>
+									<li><div class="dropdown-item" href="02-800.html">Module Summary</div></li>
+                                </ul>
+                            </li>
+
+                             <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle"
+									 href="#" role="button" data-bs-toggle="dropdown" id="navbarDropdown-3" aria-haspopup="true" aria-expanded="false">
+                                    3: How do I search for variations on a phrase, like alternate spellings or the words within a specific proximity of each other?
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown-3">
+                                    <li><div class="dropdown-item" href="03-100.html">Intro</div></li>
+                                    <li><div class="dropdown-item" href="03-200.html">Wildcard for Alternate Spellings</div></li>
+									<li><div class="dropdown-item" href="03-300.html">Proximity Search for Different Term Order and Distance</div></li>
+									<li><div class="dropdown-item" href="03-400.html">Hands-On Exercises</div></li>
+									<li><div class="dropdown-item" href="03-500.html">Knowledge Check</div></li>
+									<li><div class="dropdown-item" href="03-600.html">Module Summary</div></li>
+                                </ul>
+                            </li>
+							
+							<li class="nav-item">
+                                <div class="nav-link" href="04-000.html">Tutorial Summary and Handout</div>
+                            </li>
+
+							<li class="nav-item">
+                                <div class="nav-link" href="05-000.html">Conclusion</div>
+                            </li>
+
+							<li><div class="dropdown-divider"></div></li>
+
+                            <li class="nav-item">
+                                <div class="nav-link" href="06-000.html">Additional Resources</div>
+                            </li>
+							
+                        </ul>
+                    </div>
+                </nav>
+					</div>
+                <!-- / NAVBAR -->
+
+                <!-- HEADER/BANNER -->
+				
+				<div class="row">
+			
+                <header class="bg-secondary p-3 truncate shadow" style="border-bottom: 1px solid #eee;">
+					
+                    <strong>Phrase Searching in PubMed Tutorial</strong>
+             
+                </header>
+				</div>
+                <!-- / HEADER/BANNER -->
+				
+				<!-- / BREADCRUMB -->
+			<div id="breadcrumb-div" class="container-fluid">
+			   <div class="breadcrumb-container">
+				 <nav aria-label="breadcrumb">
+				   <ol class="breadcrumb  mb-0" style="background-color: white;">
+					   <li class="breadcrumb-item">
+						  <a href="https://www.nlm.nih.gov/training.html" id="anch_29" target="_blank">Training &amp; Outreach</a>
+					   </li>
+					   <li class="breadcrumb-item">
+						  <a href="https://learn.nlm.nih.gov/" id="anch_30" target="_blank">Learning Resources</a>
+						</li>
+					    <li class="breadcrumb-item">
+						  <a href="https://learn.nlm.nih.gov/documentation/training-packets/T0042010P/" target="_blank">PubMed Online Training</a>
+					   </li>
+				   </ol>
+				 </nav>
+			   </div>
+			 </div>
+			
+			<!-- / BREADCRUMB -->
+			
+			<div class="row ms-1">
+				
+				<!-- LEFT COL - NAV SIDE -->
+				<div class="col col-md-4 col-xl-3 d-none d-md-block p-0">
+					<div id="sidebar" class="navbar navbar-light bg-light align-self-start">
+						<ul class="nav nav-pills flex-column ps-2 pe-2" style="width: 100%;">
+							<li class="nav-item">
+								<div class="nav-link" href="index.html">Course Home</div>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" data-bs-toggle="collapse"  href="#collapse-item-1">1: What happens when I search PubMed with a phrase?</a>
+								<div id="collapse-item-1" class="collapse show">
+									<ul class="nav flex-column ps-3">
+										<li class="nav-item">
+											<div class="nav-link active" href="01-100.html">Intro</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="01-200.html">How PubMed Processes a Phrase</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="01-300.html">Review Individual Terms (If Needed)</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="01-400.html">Knowledge Check</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="01-500.html">Module Summary</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							
+							
+							<li class="nav-item">
+								<a class="nav-link" data-bs-toggle="collapse" href="#collapse-item-2">2: I get no results or irrelevant results when I search PubMed with a phrase. What should I do next?</a>
+								<div id="collapse-item-2" class="collapse">
+									<ul class="nav flex-column ps-3">
+										<li class="nav-item">
+											<div class="nav-link" href="02-100.html">Intro</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="02-200.html">Phrase Searching with Double Quotes</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="02-300.html">Special Case: Search for a Phrase in a Specific Search Field</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="02-400.html">Phrase Searching with a Proximity of Zero</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="02-500.html">Special Case: Confirming an Exact Phrase Does Not Appear in PubMed</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="02-600.html">Hands-On Exercises</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="02-700.html">Knowledge Check</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="02-800.html">Module Summary</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" data-bs-toggle="collapse" href="#collapse-item-3">3: How do I search for variations on a phrase, like alternate spellings or the words within a specific proximity of each other?</a>
+								<div id="collapse-item-3" class="collapse">
+									<ul class="nav flex-column ps-3">
+										<li class="nav-item">
+											<div class="nav-link" href="03-100.html">Intro</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="03-200.html">Wildcard for Alternate Spellings</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="03-300.html">Proximity Search for Different Term Order and Distance</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="03-400.html">Hands-On Exercises</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="03-500.html">Knowledge Check</div>
+										</li>
+										<li class="nav-item">
+											<div class="nav-link" href="03-600.html">Module Summary</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							
+							<li class="nav-item">
+								<div class="nav-link" href="04-000.html">Tutorial Summary and Handout</div>
+							</li>
+
+							
+							<li class="nav-item">
+								<div class="nav-link" href="05-000.html">Conclusion</div>
+							</li>
+
+							<li style="height: auto; line-height: 0;"><hr></li>
+							<li class="nav-item">
+								<div class="nav-link" href="06-000.html">Additional Resources</div>
+							</li>
+							
+				
+						</ul>
+					</div>
+				</div>
+				
+			
+				<!-- / LEFT COL - NAV SIDE -->
+				
+				<!-- RIGHT COL -->
+				<div class="col col-md-8 col-xl-9 p-0 px-3">
+					
+					<!-- MAIN CONTENT AREA -->
+					<div class="row justify-content-center">
+					<div class="container-fluid">
+						
+						<!-- MAIN CONTENT - SINGLE COL -->
+						<div class="col col-12">
+                            
+						
+                               <!-- Section -->
+								<section id="item-1" class="row"><!-- Do not include class pt-3 on first section -->
+									<div class="col-lg-12">
+                                        <div class="px-2 mb-5 bg-default">
+                                            <!-- Header -->
+                                            <h2>1: What happens when I search PubMed with a phrase?
+											</h2>
+											
+											<hr>
+									
+                                            <h3>Intro</h3>
+											<br>
+											
+											 <div class="row">
+											                                           
+												
+												<div class="col-lg-12">
+													
+												<div class="graphic float-end ms-5 me-5">
+                                                        <img class="img-fluid" style="height: 200px" src="img/phrase.png" alt="Illustration of computer screen with phrases highlighted">
+														
+                                                    </div>
+													
+												<div class="card shadow bg-secondary">
+  												<div class="card-body">
+										
+											
+                                        		<div>
+                                            	<p><strong>This module includes:</strong></p>
+													
+												<ul>
+												<li><strong>How PubMed Processes a Phrase</strong></li>
+												<li><strong>Review Individual Terms (If Needed)</strong></li>
+												<li><strong>Knowledge Check</strong></li>
+												<li><strong>Module Summary</strong></li>
+												</ul>
+												
+                                        	</div>
+
+                                    		</div>
+										 </div>
+					
+	
+											</div>
+											
+										 </div>
+									</div>
+									</div>
+								</section>
+									
+                            
+						</div>
+						<!-- / MAIN CONTENT - LEFT COL -->
+												
+					</div>
+					<!-- / MAIN CONTENT AREA -->
+					
+					<div class="row justify-content-center pt-3">
+						<div class="col-12 text-center">
+                           
+						</div>
+					</div>
+				</div>
+				<!-- / RIGHT COL -->
+				
+			</div>
+			<!-- -->
+			</div>
+				
+           <!-- FOOTER -->
+             <footer class="row mt-4 bg-primary text-white">
+                <div class="container-fluid">
+                    <div class="container pt-5">
+                        <div class="row mt-3">
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <p class="mb-0"><a href="https://www.nlm.nih.gov/socialmedia/index.html" target="_blank" class="text-white">Connect with NLM</a></p>
+                                <ul class="list-inline">
+									<li class="list-inline-item me-2 social_media"><a title="External link: please review our privacy policy." href="https://www.facebook.com/nationallibraryofmedicine" target="_blank"><img src="img/facebook.svg" class="img-fluid bg-secondary" alt="Facebook"></a></li>
+									<li class="list-inline-item me-2 social_media"><a title="External link: please review our privacy policy." href="https://www.linkedin.com/company/national-library-of-medicine-nlm/" target="_blank"><img src="img/linkedin.svg" class="img-fluid bg-secondary" alt="LinkedIn"></a></li>
+									<li class="list-inline-item me-2 social_media"><a title="External link: please review our privacy policy." href="https://twitter.com/NLM_NIH" target="_blank"><img src="img/twitter.svg" class="img-fluid bg-secondary" alt="Twitter"></a></li>
+									<li class="list-inline-item me-2 social_media"><a title="External link: please review our privacy policy." href="https://www.youtube.com/user/NLMNIH" target="_blank"><img src="img/youtube.svg" class="img-fluid bg-secondary" alt="You Tube"></a></li>
+							
+								  </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <p class="address_footer text-white"> National Library of Medicine <br>
+                                    <a href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323" target="_blank" class="text-white" id="anch_71"> 8600 Rockville Pike <br>
+                                    Bethesda, MD 20894 </a></p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <p><a href="https://www.nlm.nih.gov/web_policies.html" target="_blank" class="text-white" id="anch_72"> Web Policies </a><br>
+                                    <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" target="_blank" class="text-white" id="anch_73"> FOIA </a> <br>
+									<a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="text-white" target="_blank">HHS Vulnerability Disclosure</a>
+                                    </p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <p><a href="https://support.nlm.nih.gov/?from=https://www.nlm.nih.gov/" target="_blank" class="supportLink text-white" id="anch_75"> NLM Support Center </a> <br>
+                                    <a href="https://www.nlm.nih.gov/accessibility.html" target="_blank" class="text-white" id="anch_76"> Accessibility </a><br>
+                                    <a href="https://www.nlm.nih.gov/careers/careers.html" target="_blank" class="text-white" id="anch_77"> Careers </a></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p class="mt-2 text-center"> <a href="https://www.nlm.nih.gov/" target="_blank" class="text-white" id="anch_78">NLM</a> | <a href="https://www.nih.gov/" target="_blank" class="text-white" id="anch_79">NIH</a> | <a href="https://www.hhs.gov/" target="_blank" class="text-white" id="anch_80">HHS</a> | <a href="https://www.usa.gov/" target="_blank" class="text-white" id="anch_81">USA.gov</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- / FOOTER -->
+            
+			
+		</div>
+		<!-- / MAIN CONTAINER -->
+		
+		<!-- JAVASCRIPT -->
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/oet-custom.js"></script>
+
+		
+		<noscript style="text-align:center;font-size:24px;">Enable Javascript support in the browser.</noscript>
+		
+     <!-- Google Tag Manager -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT6MLL" height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+	<!-- End Google Tag Manager -->
+
+		
+	</body>
+</html>

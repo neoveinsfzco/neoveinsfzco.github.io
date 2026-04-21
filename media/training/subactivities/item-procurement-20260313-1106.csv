@@ -1,0 +1,12 @@
+Item ID,Item,Ordered Qty,Received Qty,Outstanding Qty,Paid (Received),Unit Statuses,stored,opened,partial,consumed,expired,discarded,not_in_dept
+250036,ALP ALKALINE PHOSPHATE ,14,2,12,1476.00,stored:2
+250037,ALTV VISIBLE-WW 300 SLIDES,23,22,1,7198.00,stored:22
+250106,C3,4,3,1,5457.00,stored:3
+250108,C4,5,3,2,5457.00,stored:3
+250207,CMV IgG,3,3,0,1143.00,stored:3
+250208,CMV IgM,2,2,0,836.00,stored:2
+250414,IgA,24,3,21,5457.00,"stored:2 , discarded:1"
+250705,VITROS ANTI-HBs,43,1,42,1938.00,stored:1
+250758,VITROS TSH3 CALIBRATORS,52,52,0,17628.00,"stored:49 , consumed:3"
+250762,VITROS UREA(60 SLIDES) PKT/5,32,32,0,10816.00,stored:32
+250764,VITROS VERSATIP,44,44,0,10076.00,stored:44

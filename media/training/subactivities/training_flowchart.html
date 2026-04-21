@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Training Administration Flowchart</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #1a1a1a;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    svg {
+      max-width: 680px;
+      width: 100%;
+    }
+
+    /* Color ramps */
+    .c-purple rect, .c-purple circle { fill: #EEEDFE; stroke: #534AB7; }
+    .c-purple text { fill: #3C3489; }
+    .c-teal rect, .c-teal circle   { fill: #E1F5EE; stroke: #0F6E56; }
+    .c-teal text   { fill: #085041; }
+    .c-blue rect, .c-blue circle   { fill: #E6F1FB; stroke: #185FA5; }
+    .c-blue text   { fill: #0C447C; }
+    .c-amber rect, .c-amber circle { fill: #FAEEDA; stroke: #854F0B; }
+    .c-amber text  { fill: #633806; }
+    .c-coral rect, .c-coral circle { fill: #FAECE7; stroke: #993C1D; }
+    .c-coral text  { fill: #712B13; }
+    .c-green rect, .c-green circle { fill: #EAF3DE; stroke: #3B6D11; }
+    .c-green text  { fill: #27500A; }
+
+    .node { cursor: default; }
+    .node:hover rect { opacity: 0.85; }
+
+    .th { font-size: 14px; font-weight: 600; }
+    .ts { font-size: 12px; font-weight: 400; fill: #555; }
+    .arr { stroke: #888; stroke-width: 1.5; fill: none; }
+
+    /* Legend */
+    .legend { font-size: 13px; fill: #ccc; }
+  </style>
+</head>
+<body>
+<svg width="100%" viewBox="0 0 680 1080" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Training Administration Flowchart</title>
+  <desc>End-to-end training workflow from admin settings through course creation, assignments, enrollments, and reporting</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="680" height="1080" fill="#1a1a1a"/>
+
+  <!-- Title -->
+  <text x="340" y="22" text-anchor="middle" font-size="15" font-weight="700" fill="#ddd">Training Administration Workflow</text>
+
+  <!-- A: Training Admin -->
+  <g class="node c-purple">
+    <rect x="220" y="36" width="240" height="44" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="58" text-anchor="middle" dominant-baseline="central">Training admin / officer</text>
+  </g>
+
+  <!-- Arrow A -> B -->
+  <line x1="340" y1="80" x2="340" y2="108" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- B: Training Settings -->
+  <g class="node c-purple">
+    <rect x="200" y="108" width="280" height="56" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="129" text-anchor="middle" dominant-baseline="central">Training settings</text>
+    <text class="ts" x="340" y="147" text-anchor="middle" dominant-baseline="central">Categories · vendors · content library</text>
+  </g>
+
+  <!-- Arrow B -> C -->
+  <line x1="340" y1="164" x2="340" y2="192" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- C: Create Course -->
+  <g class="node c-teal">
+    <rect x="175" y="192" width="330" height="68" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="214" text-anchor="middle" dominant-baseline="central">Create course</text>
+    <text class="ts" x="340" y="232" text-anchor="middle" dominant-baseline="central">Title · objectives · dates · validity</text>
+    <text class="ts" x="340" y="248" text-anchor="middle" dominant-baseline="central">Cover · trailer · attachments</text>
+  </g>
+
+  <!-- Optional Learning Path branch from C -->
+  <path d="M505 226 L575 226 L575 608 L506 608" fill="none" stroke="#888" stroke-width="1" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+  <text x="580" y="222" font-size="11" fill="#aaa">Optional</text>
+  <g class="node c-amber">
+    <rect x="505" y="200" width="155" height="56" rx="8" stroke-width="0.5"/>
+    <text class="th" x="582" y="221" text-anchor="middle" dominant-baseline="central">Learning path</text>
+    <text class="ts" x="582" y="239" text-anchor="middle" dominant-baseline="central">Ordered courses</text>
+  </g>
+
+  <!-- Arrow C -> D -->
+  <line x1="340" y1="260" x2="340" y2="288" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- D: Build Modules -->
+  <g class="node c-teal">
+    <rect x="180" y="288" width="320" height="56" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="309" text-anchor="middle" dominant-baseline="central">Build modules</text>
+    <text class="ts" x="340" y="327" text-anchor="middle" dominant-baseline="central">Instructor · self-paced · blended · capacity</text>
+  </g>
+
+  <!-- Arrow D -> E -->
+  <line x1="340" y1="344" x2="340" y2="372" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- E: Create Sections -->
+  <g class="node c-teal">
+    <rect x="180" y="372" width="320" height="56" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="393" text-anchor="middle" dominant-baseline="central">Create sections</text>
+    <text class="ts" x="340" y="411" text-anchor="middle" dominant-baseline="central">Reading · assessment · feedback · recorded</text>
+  </g>
+
+  <!-- Arrow E -> F -->
+  <line x1="340" y1="428" x2="340" y2="456" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- F: Add Activities -->
+  <g class="node c-teal">
+    <rect x="180" y="456" width="320" height="56" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="477" text-anchor="middle" dominant-baseline="central">Add activities</text>
+    <text class="ts" x="340" y="495" text-anchor="middle" dominant-baseline="central">PDF · PPT · video · SCORM · assessment</text>
+  </g>
+
+  <!-- Arrow F -> G -->
+  <line x1="340" y1="512" x2="340" y2="540" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- G: Assessment Builder -->
+  <g class="node c-blue">
+    <rect x="195" y="540" width="290" height="56" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="561" text-anchor="middle" dominant-baseline="central">Assessment builder</text>
+    <text class="ts" x="340" y="579" text-anchor="middle" dominant-baseline="central">Questions · attempts · scoring</text>
+  </g>
+
+  <!-- Arrow G -> I -->
+  <line x1="340" y1="596" x2="340" y2="624" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- I: Create Assignment -->
+  <g class="node c-coral">
+    <rect x="210" y="624" width="260" height="44" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="646" text-anchor="middle" dominant-baseline="central">Create assignment</text>
+  </g>
+
+  <!-- Arrow I -> J -->
+  <line x1="340" y1="668" x2="340" y2="696" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- J: Select Target Learners -->
+  <g class="node c-coral">
+    <rect x="185" y="696" width="310" height="56" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="717" text-anchor="middle" dominant-baseline="central">Select target learners</text>
+    <text class="ts" x="340" y="735" text-anchor="middle" dominant-baseline="central">Department · position · users</text>
+  </g>
+
+  <!-- Arrow J -> K -->
+  <line x1="340" y1="752" x2="340" y2="780" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- K: Generate Enrollments -->
+  <g class="node c-coral">
+    <rect x="210" y="780" width="260" height="44" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="802" text-anchor="middle" dominant-baseline="central">Generate enrollments</text>
+  </g>
+
+  <!-- Arrow K -> L (left) -->
+  <path d="M210 802 L110 802 L110 880 L148 880" fill="none" stroke="#888" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- Arrow K -> M (right) -->
+  <path d="M470 802 L570 802 L570 880 L512 880" fill="none" stroke="#888" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- L: Learner View -->
+  <g class="node c-green">
+    <rect x="20" y="858" width="240" height="56" rx="8" stroke-width="0.5"/>
+    <text class="th" x="140" y="879" text-anchor="middle" dominant-baseline="central">Learner view</text>
+    <text class="ts" x="140" y="897" text-anchor="middle" dominant-baseline="central">Assigned learnings</text>
+  </g>
+
+  <!-- M: Line Manager View -->
+  <g class="node c-green">
+    <rect x="420" y="858" width="240" height="56" rx="8" stroke-width="0.5"/>
+    <text class="th" x="540" y="879" text-anchor="middle" dominant-baseline="central">Line manager view</text>
+    <text class="ts" x="540" y="897" text-anchor="middle" dominant-baseline="central">Employee status + progress</text>
+  </g>
+
+  <!-- Arrows L and M -> N -->
+  <path d="M140 914 L140 960 L340 960" fill="none" stroke="#888" stroke-width="1" marker-end="url(#arrow)"/>
+  <path d="M540 914 L540 960 L340 960" fill="none" stroke="#888" stroke-width="1"/>
+  <line x1="340" y1="960" x2="340" y2="986" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- N: Reports & Dashboards -->
+  <g class="node c-blue">
+    <rect x="195" y="986" width="290" height="44" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="1008" text-anchor="middle" dominant-baseline="central">Reports &amp; dashboards</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(20, 1042)">
+    <rect x="0" y="0" width="12" height="12" rx="2" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+    <text class="legend" x="16" y="10">Admin setup</text>
+    <rect x="90" y="0" width="12" height="12" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+    <text class="legend" x="106" y="10">Course building</text>
+    <rect x="200" y="0" width="12" height="12" rx="2" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+    <text class="legend" x="216" y="10">Learning path</text>
+    <rect x="300" y="0" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+    <text class="legend" x="316" y="10">Assignment</text>
+    <rect x="390" y="0" width="12" height="12" rx="2" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+    <text class="legend" x="406" y="10">Learner/manager</text>
+    <rect x="510" y="0" width="12" height="12" rx="2" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+    <text class="legend" x="526" y="10">Assessment/reports</text>
+  </g>
+</svg>
+</body>
+</html>

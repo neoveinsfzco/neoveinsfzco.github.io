@@ -1,0 +1,701 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 7569
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+Q
+q
+1 0 0 1 28.34646 795.9621 cm
+q
+1 0 0 1 1 -1 cm
+q
+.973828 w
+BT 1 0 0 1 0 10.12303 Tm 15.58125 TL /F2 10.3875 Tf 0 0 0 rg (New ) Tj .843137 .176471 .176471 rg (Document) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 28.34646 772.3246 cm
+q
+1 0 0 1 1 -1 cm
+q
+.703125 w
+BT 1 0 0 1 0 7.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (Start writing your controller) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 28.34646 763.8246 cm
+q
+1 w
+1 J
+0 0 0 RG
+n 0 0 m 538.5827 0 l S
+Q
+Q
+q
+1 0 0 1 28.34646 700.0746 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 22.5 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 22.5 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 27.83626 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (1) Tj T* -27.83626 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 59.84252 22.5 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 27.83626 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (2) Tj T* -27.83626 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 119.685 22.5 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 27.83626 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (3) Tj T* -27.83626 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 0 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 27.83626 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (4) Tj T* -27.83626 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 59.84252 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 27.83626 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (5) Tj T* -27.83626 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 119.685 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 27.83626 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (5) Tj T* -27.83626 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 0 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 25.75126 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (31) Tj T* -25.75126 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 59.84252 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 13.25626 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (3WRWEF) Tj T* -13.25626 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 179.5276 22.5 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 22.5 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 5.745009 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (123123RQEW) Tj T* -5.745009 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 59.84252 22.5 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 9.292509 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (42Q3RWER) Tj T* -9.292509 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 119.685 22.5 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 16.78876 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (23423R) Tj T* -16.78876 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 0 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 22.42126 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (AEF) Tj T* -22.42126 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 59.84252 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 15.33001 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (QEQ234) Tj T* -15.33001 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 119.685 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 14.50501 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (QWEQW) Tj T* -14.50501 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 0 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 9.922509 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (SDGAWRG) Tj T* -9.922509 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 119.685 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 5.332509 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (Awrgawrgwer) Tj T* -5.332509 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 359.0551 22.5 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 22.5 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 23.88001 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (WE) Tj T* -23.88001 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 59.84252 22.5 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 24.50251 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (e4t) Tj T* -24.50251 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 119.685 22.5 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 23.46001 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (w3r) Tj T* -23.46001 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 0 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 8.880009 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (W3Rw3rWR) Tj T* -8.880009 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 59.84252 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 15.12751 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (werW3R) Tj T* -15.12751 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 119.685 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 14.50501 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (W3rW3R) Tj T* -14.50501 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 0 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 5.332509 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (wTwerrERwef) Tj T* -5.332509 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 59.84252 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 15.54751 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (WERWe) Tj T* -15.54751 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 119.685 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 18.67126 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (EERW) Tj T* -18.67126 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 0 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (RweerW) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 179.5276 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (erWESWERw) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 359.0551 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (serWEFsWRwer) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 0 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (WERWRWerW) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 179.5276 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (DFERwer) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 359.0551 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (WERwER3) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 28.34646 666.3246 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 22.5 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 69.55128 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (EQRerEWE) Tj T* -69.55128 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 179.5276 22.5 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 79.13628 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (Wewe) Tj T* -79.13628 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 359.0551 22.5 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 74.55378 0 Td 11.25 TL /F2 7.5 Tf 0 0 0 rg (wERWer) Tj T* -74.55378 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 0 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (WERWerWE) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 179.5276 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (RWer) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 359.0551 11.25 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (dfSFw) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 0 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (fwERWer) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 179.5276 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (RwerWW3) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 359.0551 -0.000001 cm
+q
+1 0 0 1 0 0 cm
+q
+.703125 w
+BT 1 0 0 1 0 5.865 Tm 11.25 TL /F1 7.5 Tf 0 0 0 rg (WER) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 28.34646 645.5746 cm
+q
+1 0 0 1 1 -1 cm
+q
+.703125 w
+BT 1 0 0 1 0 7.865 Tm 11.25 TL /F1 7.5 Tf .6 .6 .6 rg (\227 Page Break \227) Tj T* ET
+Q
+Q
+q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.4 0.4 0.4 rg
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+q
+0 1 -1 0 10 20 cm
+BT
+1 0 0 1 0 0 Tm
+1 0 0 1 0 0 Tm
+10 TL
+(1\057REC\057PP\0579\057v1\056 Accessed by admin\100neoveins\056com on Jan 22\054 2026 11\07246 AM\056) Tj
+T*
+(This document is uncontrolled when printed\056 The electronic version of this document is the approved and most current\056) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+0000000405 00000 n 
+0000008026 00000 n 
+0000008133 00000 n 
+0000008240 00000 n 
+trailer
+<<
+/Size 9
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+8352
+%%EOF
