@@ -9,9 +9,8 @@ import {
 } from '../auth/tokenStorage';
 
 const api = axios.create({
-  // This will use the .env.production value on GitHub Pages 
-  // and the fallback 'http://127.0.0.1:8000/api/' on your local machine.
   baseURL: import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api/',
+  withCredentials: true, // THIS IS REQUIRED for cookies to be sent
 });
 
 // --- Request interceptor: attach access token ---
